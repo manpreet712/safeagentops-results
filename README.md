@@ -2,7 +2,7 @@
 
 Supporting data for **Guard Coverage and Finite Verification in Kubernetes Service Repair**, by Manpreet Singh Sachdeva and Ratan Deep Singh. Prepared for IEEE Transactions on Network and Service Management submission. No acceptance or publication is claimed.
 
-This is a public results-only derivative of the private SafeAgentOps research repository. It includes aggregate and per-unit result tables; it does not include experiment runners, raw journals, cloud credentials, infrastructure identifiers, the manuscript, or private Git history. No DOI has been assigned.
+This is a public results-only derivative of the private SafeAgentOps research repository. It includes aggregate and per-unit result tables; it does not include experiment runners, raw journals, cloud credentials, infrastructure identifiers, the manuscript, or private Git history. The dataset is archived on Zenodo: https://doi.org/10.5281/zenodo.24062866. The Zenodo archive preserves the initial dataset snapshot.
 
 ## Cohorts
 
