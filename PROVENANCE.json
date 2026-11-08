@@ -1,0 +1,73 @@
+{
+  "dataset_version": "v1",
+  "release_date": "2026-11-08",
+  "transformation": "Exact byte copies of allowlisted result tables; no filtering of rows or modification of values.",
+  "files": [
+    {
+      "file": "original-campaign/replication-cells-business-recovery.csv",
+      "source_repository_relative_path": "analysis/current-claims/replication-cells-business-recovery.csv",
+      "sha256": "e29ee7dd9ba248f18fd98e79d484bc75abff52bc630f1171625dc6917ed2c5d1",
+      "bytes": 2928
+    },
+    {
+      "file": "original-campaign/execution-dispositions-all-cells.csv",
+      "source_repository_relative_path": "analysis/current-claims/execution-dispositions-all-cells.csv",
+      "sha256": "55bf5492c5cc6d94e1be0e6e54b96099f2b23103ac44be9d9027d4932d1930bf",
+      "bytes": 2721
+    },
+    {
+      "file": "original-campaign/later-writer-session-counts.csv",
+      "source_repository_relative_path": "analysis/secondary-endpoints/session-counts.csv",
+      "sha256": "505619272a58e48482c6ef7e6110bed26cf61c2b39d2ff5f3ef5a29af0f0afdb",
+      "bytes": 1711
+    },
+    {
+      "file": "original-campaign/later-writer-paired-differences.csv",
+      "source_repository_relative_path": "analysis/secondary-endpoints/paired-differences.csv",
+      "sha256": "38f158cd60f5799d72fdf2b0ec7a43d8a2d4fa0494d76c47479b26b110aaa3e7",
+      "bytes": 161
+    },
+    {
+      "file": "normal-case-cost/paired-costs.csv",
+      "source_repository_relative_path": "analysis/final-overhead/paired-costs.csv",
+      "sha256": "df704c3c940bc37748f140b4ea5d3803b8fe6161602322a1b9e14425ffbd1727",
+      "bytes": 13394
+    },
+    {
+      "file": "normal-case-cost/paired-summaries.csv",
+      "source_repository_relative_path": "analysis/final-overhead/paired-summaries.csv",
+      "sha256": "8fa917bbe418d93deede79f5c7d11311f31d2933fe0718b76397481c71976711",
+      "bytes": 4877
+    },
+    {
+      "file": "final-cohort/UNIT_RESULTS.csv",
+      "source_repository_relative_path": "analysis/final-cohort-audit/UNIT_RESULTS.csv",
+      "sha256": "034a54a6964d9b3877b8fdb8f773d6b4268990f13a8f99806b1983dc70af5374",
+      "bytes": 7692
+    },
+    {
+      "file": "final-cohort/PAIRED_COSTS.csv",
+      "source_repository_relative_path": "analysis/final-cohort-audit/PAIRED_COSTS.csv",
+      "sha256": "382a27e498cab8626539c388f1ecb263c94d1c5bd9d520120fa12e13423299ff",
+      "bytes": 6126
+    },
+    {
+      "file": "final-cohort/PAIRED_COSTS.json",
+      "source_repository_relative_path": "analysis/final-cohort-audit/PAIRED_COSTS.json",
+      "sha256": "5f29fb445b37234ec87ac7d32ea57094fb04368e3dd0beb9e35a007ae551d818",
+      "bytes": 8750
+    },
+    {
+      "file": "final-cohort/RESULTS.json",
+      "source_repository_relative_path": "analysis/final-cohort-audit/RESULTS.json",
+      "sha256": "02269ec6b459de5a3e790b5c3559e346ac142ab0a60757f8e40b5fa85fa370e4",
+      "bytes": 21071
+    },
+    {
+      "file": "final-cohort/RESULTS.md",
+      "source_repository_relative_path": "analysis/final-cohort-audit/RESULTS.md",
+      "sha256": "caa51712b537c18e841ab5b974935e4639353104f309b496da5116d0c607570d",
+      "bytes": 1815
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "cohort": "journal-final-v1",
+  "units": 50,
+  "groups": [
+    {
+      "study": "fallback",
+      "arm": "FM",
+      "condition": "no_writer",
+      "units": 3,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 3,
+      "correct_business": 360,
+      "wrong_business": 0,
+      "unavailable": 0,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 5.257358,
+        "min": 5.191021,
+        "max": 5.871097
+      },
+      "executor_wall_seconds": {
+        "median": 2.4953567550037405,
+        "min": 2.3406893240025965,
+        "max": 2.67760004199954
+      },
+      "executor_cpu_seconds": {
+        "median": 0.4982510000000001,
+        "min": 0.4941329999999999,
+        "max": 0.5069559999999999
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.268089,
+        "min": 0.261993,
+        "max": 0.280247
+      }
+    },
+    {
+      "study": "fallback",
+      "arm": "VC-original",
+      "condition": "no_writer",
+      "units": 3,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 3,
+      "correct_business": 360,
+      "wrong_business": 0,
+      "unavailable": 0,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 60,
+      "observer_cpu_seconds": {
+        "median": 5.557754,
+        "min": 5.521559,
+        "max": 5.93528
+      },
+      "executor_wall_seconds": {
+        "median": 32.5718246059987,
+        "min": 32.10121072200127,
+        "max": 34.43385782400583
+      },
+      "executor_cpu_seconds": {
+        "median": 0.6517720000000001,
+        "min": 0.6325019999999998,
+        "max": 0.6548490000000001
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.263245,
+        "min": 0.26320499999999997,
+        "max": 0.264576
+      }
+    },
+    {
+      "study": "fallback",
+      "arm": "VC-fallback",
+      "condition": "no_writer",
+      "units": 3,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 3,
+      "correct_business": 360,
+      "wrong_business": 0,
+      "unavailable": 0,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 60,
+      "observer_cpu_seconds": {
+        "median": 5.534344,
+        "min": 5.517949,
+        "max": 5.993328
+      },
+      "executor_wall_seconds": {
+        "median": 32.47524926500046,
+        "min": 32.34022388500307,
+        "max": 32.97126014499372
+      },
+      "executor_cpu_seconds": {
+        "median": 0.6488859999999997,
+        "min": 0.6378020000000002,
+        "max": 0.6608719999999997
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.26793199999999995,
+        "min": 0.26666,
+        "max": 0.269675
+      }
+    },
+    {
+      "study": "fallback",
+      "arm": "FM",
+      "condition": "later_routing_writer",
+      "units": 3,
+      "units_with_wrong_response": 3,
+      "units_final_ten_correct": 0,
+      "correct_business": 122,
+      "wrong_business": 201,
+      "unavailable": 37,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 5.306325,
+        "min": 5.252517,
+        "max": 5.432465
+      },
+      "executor_wall_seconds": {
+        "median": 2.2343765149998944,
+        "min": 2.089332210001885,
+        "max": 2.349185104998469
+      },
+      "executor_cpu_seconds": {
+        "median": 0.5034320000000002,
+        "min": 0.49839199999999984,
+        "max": 0.509815
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.256187,
+        "min": 0.235109,
+        "max": 0.260252
+      }
+    },
+    {
+      "study": "fallback",
+      "arm": "VC-original",
+      "condition": "later_routing_writer",
+      "units": 3,
+      "units_with_wrong_response": 3,
+      "units_final_ten_correct": 0,
+      "correct_business": 133,
+      "wrong_business": 190,
+      "unavailable": 37,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 60,
+      "observer_cpu_seconds": {
+        "median": 5.680546,
+        "min": 5.459834,
+        "max": 5.910115
+      },
+      "executor_wall_seconds": {
+        "median": 32.72387225100101,
+        "min": 23.399154186998203,
+        "max": 33.12503801400453
+      },
+      "executor_cpu_seconds": {
+        "median": 0.9283959999999998,
+        "min": 0.8941070000000003,
+        "max": 0.9346650000000001
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.26945199999999997,
+        "min": 0.254626,
+        "max": 0.270248
+      }
+    },
+    {
+      "study": "fallback",
+      "arm": "VC-fallback",
+      "condition": "later_routing_writer",
+      "units": 3,
+      "units_with_wrong_response": 3,
+      "units_final_ten_correct": 0,
+      "correct_business": 131,
+      "wrong_business": 193,
+      "unavailable": 36,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 60,
+      "observer_cpu_seconds": {
+        "median": 5.723225,
+        "min": 5.546519,
+        "max": 5.96242
+      },
+      "executor_wall_seconds": {
+        "median": 29.411280464999436,
+        "min": 27.05366190100176,
+        "max": 33.325639015005436
+      },
+      "executor_cpu_seconds": {
+        "median": 0.9169569999999998,
+        "min": 0.864312,
+        "max": 0.9181149999999998
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.258121,
+        "min": 0.256412,
+        "max": 0.267816
+      }
+    },
+    {
+      "study": "enforcement",
+      "arm": "FM-unprotected",
+      "condition": "routing_writer",
+      "units": 3,
+      "units_with_wrong_response": 3,
+      "units_final_ten_correct": 0,
+      "correct_business": 93,
+      "wrong_business": 204,
+      "unavailable": 63,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 5.185801,
+        "min": 5.172147,
+        "max": 5.543129
+      },
+      "executor_wall_seconds": {
+        "median": 2.2379065160057507,
+        "min": 2.2272358639966114,
+        "max": 2.4263537410006393
+      },
+      "executor_cpu_seconds": {
+        "median": 0.49618199999999996,
+        "min": 0.4953940000000001,
+        "max": 0.49675200000000014
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.251491,
+        "min": 0.23993699999999998,
+        "max": 0.254262
+      }
+    },
+    {
+      "study": "enforcement",
+      "arm": "FM-enforced",
+      "condition": "routing_writer",
+      "units": 3,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 3,
+      "correct_business": 348,
+      "wrong_business": 0,
+      "unavailable": 12,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 5.328599,
+        "min": 5.1948,
+        "max": 5.526491
+      },
+      "executor_wall_seconds": {
+        "median": 2.364750777000154,
+        "min": 2.107100111999898,
+        "max": 2.8466792620019987
+      },
+      "executor_cpu_seconds": {
+        "median": 0.49963500000000005,
+        "min": 0.49031299999999994,
+        "max": 0.5267750000000002
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.245397,
+        "min": 0.244714,
+        "max": 0.261947
+      }
+    },
+    {
+      "study": "enforcement",
+      "arm": "FM-unprotected",
+      "condition": "annotation_writer",
+      "units": 3,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 3,
+      "correct_business": 350,
+      "wrong_business": 0,
+      "unavailable": 10,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 5.17694,
+        "min": 5.150224,
+        "max": 5.694475
+      },
+      "executor_wall_seconds": {
+        "median": 2.2873982489982154,
+        "min": 2.2597825279954122,
+        "max": 2.3088923249961226
+      },
+      "executor_cpu_seconds": {
+        "median": 0.4949819999999994,
+        "min": 0.48635000000000006,
+        "max": 0.5242059999999992
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.247191,
+        "min": 0.235147,
+        "max": 0.262611
+      }
+    },
+    {
+      "study": "enforcement",
+      "arm": "FM-enforced",
+      "condition": "annotation_writer",
+      "units": 3,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 3,
+      "correct_business": 350,
+      "wrong_business": 0,
+      "unavailable": 10,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 5.202716,
+        "min": 5.160483,
+        "max": 5.713286
+      },
+      "executor_wall_seconds": {
+        "median": 2.2855313480031327,
+        "min": 2.260021128000517,
+        "max": 2.367425235992414
+      },
+      "executor_cpu_seconds": {
+        "median": 0.4949629999999998,
+        "min": 0.47987400000000047,
+        "max": 0.4995759999999997
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.24556899999999998,
+        "min": 0.23948699999999998,
+        "max": 0.266538
+      }
+    },
+    {
+      "study": "verification",
+      "arm": "0",
+      "condition": "normal_case",
+      "units": 5,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 5,
+      "correct_business": 1170,
+      "wrong_business": 0,
+      "unavailable": 30,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 0,
+      "observer_cpu_seconds": {
+        "median": 10.719422,
+        "min": 10.621571,
+        "max": 11.163294
+      },
+      "executor_wall_seconds": {
+        "median": 2.4039323159959167,
+        "min": 2.2142566139955306,
+        "max": 2.7538335710123647
+      },
+      "executor_cpu_seconds": {
+        "median": 0.5112469999999998,
+        "min": 0.5006470000000001,
+        "max": 0.5434399999999999
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.21081099999999997,
+        "min": 0.19772199999999998,
+        "max": 0.21350999999999998
+      }
+    },
+    {
+      "study": "verification",
+      "arm": "5",
+      "condition": "normal_case",
+      "units": 5,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 5,
+      "correct_business": 1166,
+      "wrong_business": 0,
+      "unavailable": 34,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 50,
+      "observer_cpu_seconds": {
+        "median": 10.643976,
+        "min": 10.334468,
+        "max": 11.341585
+      },
+      "executor_wall_seconds": {
+        "median": 17.06459247501334,
+        "min": 14.62657896798919,
+        "max": 17.540980004996527
+      },
+      "executor_cpu_seconds": {
+        "median": 0.5841710000000002,
+        "min": 0.5562299999999999,
+        "max": 0.6097950000000004
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.224402,
+        "min": 0.21613899999999997,
+        "max": 0.24498899999999998
+      }
+    },
+    {
+      "study": "verification",
+      "arm": "10",
+      "condition": "normal_case",
+      "units": 5,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 5,
+      "correct_business": 1165,
+      "wrong_business": 0,
+      "unavailable": 35,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 100,
+      "observer_cpu_seconds": {
+        "median": 11.10568,
+        "min": 10.578746,
+        "max": 11.437319
+      },
+      "executor_wall_seconds": {
+        "median": 31.174563011009013,
+        "min": 28.612824493000517,
+        "max": 32.330749767003
+      },
+      "executor_cpu_seconds": {
+        "median": 0.6346959999999997,
+        "min": 0.6219030000000003,
+        "max": 0.6573
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.253177,
+        "min": 0.23763099999999998,
+        "max": 0.26716399999999996
+      }
+    },
+    {
+      "study": "verification",
+      "arm": "20",
+      "condition": "normal_case",
+      "units": 5,
+      "units_with_wrong_response": 0,
+      "units_final_ten_correct": 5,
+      "correct_business": 1165,
+      "wrong_business": 0,
+      "unavailable": 35,
+      "unknown": 0,
+      "compensation_attempts": 0,
+      "verification_receipts": 200,
+      "observer_cpu_seconds": {
+        "median": 11.220503,
+        "min": 11.140224,
+        "max": 11.836042
+      },
+      "executor_wall_seconds": {
+        "median": 62.74197254900355,
+        "min": 47.17573782399995,
+        "max": 63.51278442099283
+      },
+      "executor_cpu_seconds": {
+        "median": 0.7764879999999996,
+        "min": 0.6948919999999998,
+        "max": 0.812266
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.28143199999999996,
+        "min": 0.263076,
+        "max": 0.32089999999999996
+      }
+    }
+  ],
+  "neutral_receipts_action_and_control": 16800,
+  "verification_receipts": 590,
+  "unit_result_sha256": {
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-00-00.json": "50d8aef7c8192d7d56357bfb702bd99cc42bf044a9b251c068e3bad2bf4f4688",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-00-01.json": "da5a042e127499ff990616919181496608e76f38889957b10062d7d24e83f5b2",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-00-02.json": "b95080fcb01866b98323d0d06a9814201ad87541e5f11671b8f2b01f3fc83143",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-00-03.json": "c5384f684214fe7e3e9c7b1a9d8b25a6d9222ac29111dfccbb6298f13d9d13ad",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-00-04.json": "3d9e997e39849a0d16206435e031ae8b7593c3296302c29a144a28713cdd22d2",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-00-05.json": "a6791f416d9e1cd71a831d2e2f74b15e49a576055194d36486976e00f6c97d17",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-01-00.json": "ab5cc6adb3397228a9ca9ef2746761ac34cc7152796837ec49542527b61de328",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-01-01.json": "57ca5762f1e43d75488870cb34869eeead1d981678a1cc525cbda6942acbe0f5",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-01-02.json": "bd6ed1f314f351920ebd33fa3f6811bd6dda94b21e379a55ca6f15f27f6326f7",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-01-03.json": "4562ff10259978ffd06663c60855a58143b2d14448ed3bae995428e1bfd5fa7d",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-01-04.json": "497ae1e27a45c6f32c011ae15eee3bf0b72e1644df2d19d85bc43e81fc3c4f67",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-01-05.json": "e5b70a2690f0d82b23f8b7c083d1b8f275b4777e2777f5f9b4954286c83adb95",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-02-00.json": "2305313a641830e540b003efeb1ef30f8b0a0d4e6c5e1ce2da62acb7f6d0a011",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-02-01.json": "954cf8a01e1868045d61994b7bdea1ff9c52271d192606f5fb39a8e2b71c5552",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-02-02.json": "60fb3d094885685f1e89ef3811aa853fc038f44ff53e75fe91d7b1dbef9a42bd",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-02-03.json": "1dd32c7567c07ed4d0c8d114f08ffbf72825ab0f9863ad211581f17cae093869",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-02-04.json": "e854195abda40e4f72d0dfc672df33f72460c9d3c77a7d83358dafab77a8acfd",
+    "study/journal-final-study/artifacts/unit-results/journal-fallback-02-05.json": "43c70631640fe58a3b2c2883a6ab0d69177edb0731dfc2bf57b890d50a43fce3",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-00-00.json": "1d68f48b486198674d9eb48f705d959c00b804aa8964d2b4a3ee7334968f2ce3",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-00-01.json": "22923ee43bc05b3c30d4d0e1fd222fbaefca09809bc12fdbf24d510f7682e1c7",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-00-02.json": "fa4bc77d018cd0e8f0f8f1a0083b8a830db40744cb03aaa93f3cb3d4b8cf5c98",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-00-03.json": "c48aa608838e1af595b3acb44508bb9feea006c1195354847fd82e642533c316",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-01-00.json": "278ae2ece0de9d6ee9a272c641b749284f691ce61106c9bf5f348e268f316392",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-01-01.json": "4625343fa85748370031ba3f5ed2f678a933304f3c7ac3b612fb12e3f0d97d7b",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-01-02.json": "7443989841e79747721328bfe76e8a518e67e0c52b272cc500324d434516b5bc",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-01-03.json": "e39086d521bac819a87f397f91a26e804956c7840da4aa06df717e927fc03beb",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-02-00.json": "4720d2e945a183df63ab370b3d59bf3e35a7ebddd3090019857e1dd217b41cec",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-02-01.json": "3d21b507ca443b2acfdb7b0115b451bfc411b0acd3782405e81a1a97ce50561a",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-02-02.json": "29b24b5d7c7eb77b7fd45e4a13f31d40b41a4689c5853f8e3f3fec9c5afa34f6",
+    "study/journal-final-study/artifacts/unit-results/journal-enforcement-02-03.json": "11612d3c3d44981e5999735199efc6ce1da036720cbbd02514571c02060bf753",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-00-00.json": "d16fea4fa48b3d688c5a633029651b05eff73e647f461a6c8be83433d07d4b7d",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-00-01.json": "df7bd4201cadcf7c8946551e7cee64450f6352d428c5b1e74c89f43caf21a51c",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-00-02.json": "9fb57c27151f240dc612a4fab5f48ab4d9c6b03842c9b4e54462eebd8154e98c",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-00-03.json": "0cff332bd32ca9d1aa13f4da383916b68948daf8c88c169187711f62f015a4c6",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-01-00.json": "81de34b28cd5c7f3c7080fcca70712f2bfeeb028dc0095b42fcfbacef8635f6f",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-01-01.json": "cddf3dc568734f878200895680f6bb520d8e9abd78b7ab7992397e73135b3a69",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-01-02.json": "a9f015a3a9f49c266711d45110dd4bd01a21f2758d470ca92bcdbb62c654273b",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-01-03.json": "4f2a81c4725533f914871e4c52fd6b52350dbed52a6e83e270b5b5b47a6464fb",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-02-00.json": "e4d1d709ec7cdc58aa6eeb03fd467108d3c0bb97425187e7a59a8a0b71ee046a",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-02-01.json": "9537a53bba30bf1886fca8a3ea822212c6a61133f99624e58aa4d329e8edd188",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-02-02.json": "10bb9a2b7464f45ddb80923bea69fca51464e318b2760ce06de43e964bbe727b",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-02-03.json": "c648e2643e207878a95c59df864481db4d85b411b180d7f264198ce38ee25d82",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-03-00.json": "0f7b7d2dc5555bddfb83284bb9eb40f54c75802122dec09d1a69b39e83d14d8c",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-03-01.json": "681298049d6ffedc511ebd4c2dd42e91408aad9ef10aed270cdd928f5f7bfb4e",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-03-02.json": "c4b58cecab48362b87d26e5bc8047063f9392481e7c39baff6dfba32b2403879",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-03-03.json": "60b5e7be901b72f6a5a8f4d836f52dfcacfd040fff8afda0f29d061187e805ca",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-04-00.json": "54f49087cae3093494723ad77e9afd0106d9103ef64245f4d6f415201d958f3e",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-04-01.json": "17e796dcffa4a16461689257f194f1c015bc0b936cef246fe48f7c7924f0c007",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-04-02.json": "32f1885414a8f37c3bcb5fc1070de59ce52df7b8147f2227e7bba392857d6fcf",
+    "study/journal-final-study/artifacts/unit-results/journal-verification-04-03.json": "958fac9b78c2936692b8755c7f7a44b17e07756c689bf528c528d0f78058d244"
+  },
+  "limits": "Descriptive fixed cyclic block allocation, not randomization. Slots are repeated observations within units, not independent incidents. Observer whole-container CPU, executor invocation CPU and transport lifetime CPU have distinct boundaries; do not combine into pure guard CPU. No population or causal per-request claim."
+}

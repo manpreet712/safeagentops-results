@@ -1,0 +1,338 @@
+{
+  "scope": "Descriptive within-block arm-minus-baseline differences; distinct CPU boundaries, no causal or population estimate",
+  "groups": [
+    {
+      "study": "verification",
+      "condition": "normal_case",
+      "arm": "5",
+      "baseline": "0",
+      "pairs": 5,
+      "executor_wall_seconds": {
+        "median": 14.682536961016012,
+        "min": 12.195898529986152,
+        "max": 15.302677968997159
+      },
+      "executor_cpu_seconds": {
+        "median": 0.07187800000000089,
+        "min": 0.026780999999999944,
+        "max": 0.09964400000000029
+      },
+      "observer_cpu_seconds": {
+        "median": 0.010111000000000203,
+        "min": -0.8150180000000002,
+        "max": 0.3101339999999997
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.012732999999999994,
+        "min": 0.0026289999999999925,
+        "max": 0.03895500000000002
+      },
+      "wrong_business": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "unavailable": {
+        "median": 3.0,
+        "min": -8.0,
+        "max": 3.0
+      }
+    },
+    {
+      "study": "verification",
+      "condition": "normal_case",
+      "arm": "10",
+      "baseline": "0",
+      "pairs": 5,
+      "executor_wall_seconds": {
+        "median": 28.770630695013097,
+        "min": 25.858990921988152,
+        "max": 30.09244773100363
+      },
+      "executor_cpu_seconds": {
+        "median": 0.13404899999999964,
+        "min": 0.0821310000000004,
+        "max": 0.14787600000000034
+      },
+      "observer_cpu_seconds": {
+        "median": 0.38625799999999977,
+        "min": -0.5707399999999989,
+        "max": 0.619750999999999
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.04283199999999998,
+        "min": 0.02771599999999999,
+        "max": 0.055455000000000004
+      },
+      "wrong_business": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "unavailable": {
+        "median": 3.0,
+        "min": -9.0,
+        "max": 5.0
+      }
+    },
+    {
+      "study": "verification",
+      "condition": "normal_case",
+      "arm": "20",
+      "baseline": "0",
+      "pairs": 5,
+      "executor_wall_seconds": {
+        "median": 60.52771593500802,
+        "min": 44.771805508004036,
+        "max": 61.08210398298979
+      },
+      "executor_cpu_seconds": {
+        "median": 0.27584099999999956,
+        "min": 0.15145199999999992,
+        "max": 0.3110799999999999
+      },
+      "observer_cpu_seconds": {
+        "median": 0.5908560000000005,
+        "min": -0.00926199999999966,
+        "max": 0.8770059999999997
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.07151699999999997,
+        "min": 0.05140699999999998,
+        "max": 0.10738999999999999
+      },
+      "wrong_business": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "unavailable": {
+        "median": 3.0,
+        "min": -8.0,
+        "max": 4.0
+      }
+    },
+    {
+      "study": "fallback",
+      "condition": "later_routing_writer",
+      "arm": "VC-original",
+      "baseline": "FM",
+      "pairs": 3,
+      "executor_wall_seconds": {
+        "median": 30.634540040999127,
+        "min": 21.049969081999734,
+        "max": 30.890661499004636
+      },
+      "executor_cpu_seconds": {
+        "median": 0.42496399999999956,
+        "min": 0.3842920000000003,
+        "max": 0.43627300000000024
+      },
+      "observer_cpu_seconds": {
+        "median": 0.37422099999999947,
+        "min": 0.20731699999999975,
+        "max": 0.4776500000000006
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.013264999999999971,
+        "min": 0.009996000000000005,
+        "max": 0.019517000000000007
+      },
+      "wrong_business": {
+        "median": -4.0,
+        "min": -4.0,
+        "max": -3.0
+      },
+      "unavailable": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "study": "fallback",
+      "condition": "later_routing_writer",
+      "arm": "VC-fallback",
+      "baseline": "FM",
+      "pairs": 3,
+      "executor_wall_seconds": {
+        "median": 27.062095360000967,
+        "min": 24.964329690999875,
+        "max": 31.09126250000554
+      },
+      "executor_cpu_seconds": {
+        "median": 0.4082999999999998,
+        "min": 0.36087999999999976,
+        "max": 0.41856499999999996
+      },
+      "observer_cpu_seconds": {
+        "median": 0.4707080000000001,
+        "min": 0.2401939999999998,
+        "max": 0.5299550000000002
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.007564000000000015,
+        "min": 0.0019339999999999913,
+        "max": 0.02130299999999996
+      },
+      "wrong_business": {
+        "median": -2.0,
+        "min": -5.0,
+        "max": -1.0
+      },
+      "unavailable": {
+        "median": -1.0,
+        "min": -18.0,
+        "max": 18.0
+      }
+    },
+    {
+      "study": "fallback",
+      "condition": "no_writer",
+      "arm": "VC-original",
+      "baseline": "FM",
+      "pairs": 3,
+      "executor_wall_seconds": {
+        "median": 29.89422456399916,
+        "min": 29.760521397998673,
+        "max": 31.938501069002086
+      },
+      "executor_cpu_seconds": {
+        "median": 0.14481600000000028,
+        "min": 0.13425099999999968,
+        "max": 0.16071600000000025
+      },
+      "observer_cpu_seconds": {
+        "median": 0.2642009999999999,
+        "min": 0.06418299999999988,
+        "max": 0.366733
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": -0.003513000000000044,
+        "min": -0.017002000000000017,
+        "max": 0.0012119999999999909
+      },
+      "wrong_business": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "unavailable": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "study": "fallback",
+      "condition": "no_writer",
+      "arm": "VC-fallback",
+      "baseline": "FM",
+      "pairs": 3,
+      "executor_wall_seconds": {
+        "median": 29.999534561000473,
+        "min": 29.797649223000917,
+        "max": 30.47590338998998
+      },
+      "executor_cpu_seconds": {
+        "median": 0.15475299999999986,
+        "min": 0.13084600000000035,
+        "max": 0.16262099999999957
+      },
+      "observer_cpu_seconds": {
+        "median": 0.2605909999999998,
+        "min": 0.1222310000000002,
+        "max": 0.3433229999999998
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": -0.00015700000000007375,
+        "min": -0.013587000000000016,
+        "max": 0.007682000000000022
+      },
+      "wrong_business": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "unavailable": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "study": "enforcement",
+      "condition": "annotation_writer",
+      "arm": "FM-enforced",
+      "baseline": "FM-unprotected",
+      "pairs": 3,
+      "executor_wall_seconds": {
+        "median": -0.02336097699298989,
+        "min": -0.027377120997698512,
+        "max": 0.10764270799700171
+      },
+      "executor_cpu_seconds": {
+        "median": -1.8999999999602668e-05,
+        "min": -0.044331999999998706,
+        "max": 0.013225999999999627
+      },
+      "observer_cpu_seconds": {
+        "median": 0.018811000000000355,
+        "min": 0.010259000000000462,
+        "max": 0.025775999999999577
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.010421999999999987,
+        "min": -0.023124000000000006,
+        "max": 0.019347000000000003
+      },
+      "wrong_business": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "unavailable": {
+        "median": 0.0,
+        "min": -1.0,
+        "max": 1.0
+      }
+    },
+    {
+      "study": "enforcement",
+      "condition": "routing_writer",
+      "arm": "FM-enforced",
+      "baseline": "FM-unprotected",
+      "pairs": 3,
+      "executor_wall_seconds": {
+        "median": 0.13751491300354246,
+        "min": -0.13080640400585253,
+        "max": 0.42032552100135945
+      },
+      "executor_cpu_seconds": {
+        "median": 0.003453000000000095,
+        "min": -0.005081000000000169,
+        "max": 0.030023000000000077
+      },
+      "observer_cpu_seconds": {
+        "median": 0.022653000000000034,
+        "min": -0.016638000000000375,
+        "max": 0.14279799999999998
+      },
+      "transport_lifetime_cpu_seconds": {
+        "median": 0.00546000000000002,
+        "min": -0.009548000000000001,
+        "max": 0.010455999999999965
+      },
+      "wrong_business": {
+        "median": -68.0,
+        "min": -68.0,
+        "max": -68.0
+      },
+      "unavailable": {
+        "median": -17.0,
+        "min": -18.0,
+        "max": -16.0
+      }
+    }
+  ]
+}
